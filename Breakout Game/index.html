@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Breakout Game</title>
+    <link href="main.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <img src="img/brickHtml.png" width="6%">
+    BREAKOUT GAME
+    <img src="img/brickHtml.png" width="6%">
+</header>
+<div class="ctx">
+    <canvas id="canvas" width="600" height="450">
+    </canvas>
+    <table id="table1">
+        <tr>
+            <th colspan="2">
+                Scoreboard
+            </th>
+        </tr>
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Score
+            </th>
+        </tr>
+        <tr>
+            <td id="n1">unknown</td>
+            <td id="s1">unknown</td>
+        </tr>
+        <tr>
+            <td id="n2">unknown</td>
+            <td id="s2">unknown</td>
+        </tr>
+        <tr>
+            <td id="n3">unknown</td>
+            <td id="s3">unknown</td>
+        </tr>
+    </table>
+</div>
+<footer>
+    <ul class="footerLink">
+        <li><a href="http://www.finki.ukim.mk"><img src="img/02_finki.png"></a></li>
+        <li><a href="https://www.facebook.com/FINKI.ukim.mk/"><img src="img/02_facebook.png"></a></li>
+        <li><a href="https://twitter.com/FINKIedu"><img src="img/01_twitter.png"></a></li>
+    </ul>
+    <div>
+    Dario Markovski & Aleksandar Tasevski &copy; June 2016
+    </div>
+</footer>
+<script src="game.js">
+</script>
+</body>
+</html>

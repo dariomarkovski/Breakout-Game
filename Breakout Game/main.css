@@ -1,0 +1,53 @@
+body{
+    margin:auto;
+    font-family: "Berlin Sans FB", "Comic Sans MS", sans-serif;
+}
+header{
+    width: 100%;
+    padding-top: 1%;
+    background-color: rgb(168,168,168);
+    background: linear-gradient(to bottom,rgb(80,80,80),rgb(168,168,168));
+    font-size: 40px;
+    font-weight: 700;
+    color:rgb(85,187,252);
+    text-align: center;
+}
+footer{
+    width: 100%;
+    padding: 1% 0px;
+    text-align: center;
+    background-color: rgb(168,168,168);
+    background: linear-gradient(to top,rgb(80,80,80),rgb(168,168,168));
+}
+#canvas{
+    border: 2px solid black;
+    margin: auto;
+    display: block;
+}
+#table1 th, #table1 td{
+    border: 3px solid black;
+    background: linear-gradient(to bottom, rgb(29,88,126), rgb(20,62,89));
+    color:rgb(85,187,252);
+}
+.ctx{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(168,168,168);
+    background: linear-gradient(to bottom,rgb(168,168,168),white,rgb(168,168,168) );
+}
+#table1{
+    border-collapse: collapse;
+    width: 200px;
+    height: 200px;
+    font-size: 20px;
+    text-align: center;
+    margin: 2% auto;
+}
+.footerLink{
+    padding:0px;
+}
+.footerLink li{
+    display: inline-block;
+    list-style-type: none;
+}
